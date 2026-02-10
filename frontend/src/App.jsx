@@ -60,11 +60,11 @@ function App() {
       {/* Top Banner - Made more compact on mobile */}
       <nav className="max-w-6xl mx-auto mb-6 md:mb-12 flex justify-between items-center bg-white p-3 md:p-4 rounded-xl border border-slate-200 shadow-sm">
         <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="GenHub Logo" className="w-8 h-8 md:w-10 md:h-10 object-contain" />
-          <span className="text-lg md:text-xl font-bold text-slate-900 tracking-tight">GenHub</span>
+          
+          <span className="text-lg md:text-xl font-bold text-slate-900 tracking-tight">ATS Resume Checker</span>
         </div>
         <div className="hidden sm:block text-[10px] md:text-xs text-slate-500 font-bold px-3 py-1 bg-slate-100 rounded-full uppercase tracking-wider">
-          AI Powered
+          v2.1 Stable
         </div>
       </nav>
 
