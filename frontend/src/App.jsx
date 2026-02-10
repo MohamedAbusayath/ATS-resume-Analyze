@@ -60,13 +60,11 @@ function App() {
       {/* Top Banner - Made more compact on mobile */}
       <nav className="max-w-6xl mx-auto mb-6 md:mb-12 flex justify-between items-center bg-white p-3 md:p-4 rounded-xl border border-slate-200 shadow-sm">
         <div className="flex items-center gap-2">
-          <div className="bg-indigo-600 p-1.5 rounded-lg">
-            <ClipboardCheck className="text-white w-5 h-5 md:w-6 md:h-6" />
-          </div>
-          <span className="text-lg md:text-xl font-bold text-slate-900 tracking-tight">ATS Pro</span>
+          <img src="/logo.png" alt="GenHub Logo" className="w-8 h-8 md:w-10 md:h-10 object-contain" />
+          <span className="text-lg md:text-xl font-bold text-slate-900 tracking-tight">GenHub</span>
         </div>
         <div className="hidden sm:block text-[10px] md:text-xs text-slate-500 font-bold px-3 py-1 bg-slate-100 rounded-full uppercase tracking-wider">
-          v2.1 Stable
+          AI Powered
         </div>
       </nav>
 
@@ -363,19 +361,11 @@ function App() {
       </main>
 
       <footer className="max-w-6xl mx-auto mt-12 md:mt-20 text-center border-t border-slate-200 pt-8 pb-12">
-        <p className="text-[9px] md:text-xs text-slate-400 font-black uppercase tracking-[0.25em] mb-3">Professional Suite • Real Cloud Analysis • V2.1</p>
-        <div className="flex justify-center items-center gap-4 text-slate-300">
-          <span className="text-[10px]">GDPR Compliant</span>
-          <span className="w-1 h-1 rounded-full bg-slate-200"></span>
-          <span className="text-[10px]">Secure Processing</span>
+       
+        <div className="pt-4 border-t border-slate-100 max-w-xs mx-auto">
+          <p className="text-[10px] text-slate-400 uppercase tracking-tighter mb-1"> ATS Scorer • Strictly Technical</p>
+          <p className="text-[10px] text-slate-400">© 2026 DEVELOPED BY MD-ABUSAYATH</p>
         </div>
-      </footer>
-    </div>
-
-
-      <footer className="max-w-6xl mx-auto mt-16 text-center border-t border-slate-200 pt-8 text-slate-400 text-xs">
-        <p className="mb-2 uppercase tracking-tighter">Deterministic ATS Scorer • Strictly Technical • Confidential Processing</p>
-        <p>© 2024 Professional Recruitment Suite</p>
       </footer>
     </div>
   );
