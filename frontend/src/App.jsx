@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Upload, FileText, CheckCircle2, AlertCircle, Lightbulb, ChevronLeft, Loader2, ClipboardCheck, ClipboardList, Info } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api/resume';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://ats-resume-analyze.onrender.com/api/resume';
 
 function App() {
   const [file, setFile] = useState(null);
